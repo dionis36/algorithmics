@@ -1,0 +1,11 @@
+1. Fundamentals (easy to advanced progression)
+
+Arrays (dynamic array, operations)
+
+Strings (substrings, pattern matching basics)
+
+Linked Lists (singly, doubly, circular)
+
+Stacks (array-based, linked list-based)
+
+Queues (simple, circular, deque, priority queue)

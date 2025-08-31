@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/Data_structures/__init__.py
+src/algorithmics.egg-info/PKG-INFO
+src/algorithmics.egg-info/SOURCES.txt
+src/algorithmics.egg-info/dependency_links.txt
+src/algorithmics.egg-info/top_level.txt

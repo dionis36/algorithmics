@@ -1,0 +1,29 @@
+    ```
+    algorithmics/
+    │
+    ├── src/                       # Main source code
+    │   ├── data_structures/       # Each category gets its own folder
+    │   │   ├── linked_list/
+    │   │   ├── tree/
+    │   │   └── graph/
+    │   └── algorithms/
+    │       ├── sorting/
+    │       ├── searching/
+    │       └── pathfinding/
+    │
+    ├── tests/                     # Mirror the structure of `src/`
+    │   ├── test_linked_list.py
+    │   ├── test_tree.py
+    │   └── test_sorting.py
+    │
+    ├── examples/                  # Scripts showing how to USE your library
+    │   ├── dijkstra_example.py
+    │   └── avl_tree_example.py
+    │
+    ├── docs/                      # Optional: More detailed explanations
+    │   ├── BST.md
+    │   └── Big-O.md
+    │
+    ├── requirements.txt           # (Python) for dependencies like `pytest`
+    └── README.md
+    ```
