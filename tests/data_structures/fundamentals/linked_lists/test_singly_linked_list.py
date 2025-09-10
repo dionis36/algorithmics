@@ -3,10 +3,10 @@ import sys
 import os
 import time
 
-# Add the parent directory to the system path to resolve the import
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+# tests\data_structures\fundamentals\linked_lists\test_singly_linked_list.py
+# tests/data_structures/fundamentals/linked_lists/test_singly_linked_list.py
 
-from algorithmics.src.data_structures.fundamentals.linked_lists.singly_linked_list import SinglyLinkedList, Node
+from src.data_structures.fundamentals.linked_lists.singly_linked_list import SinglyLinkedList, Node
 
 class TestSinglyLinkedList(unittest.TestCase):
     

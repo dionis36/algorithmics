@@ -1,3 +1,5 @@
 Metadata-Version: 2.4
 Name: algorithmics
-Version: 0.1.0
+Version: 0.0.1
+Summary: A collection of algorithms and data structures.
+Author-email: user <user@example.com>

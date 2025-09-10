@@ -6,7 +6,7 @@ import os
 # Add the parent directory of the current file to the system path to resolve the 'binary_search_tree' import.
 sys.path.append(os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'src'))
 
-from binary_search_tree import BinarySearchTree, Node
+from src.data_structures.trees.binary_search_tree import BinarySearchTree, Node
 
 class TestBinarySearchTree(unittest.TestCase):
     """

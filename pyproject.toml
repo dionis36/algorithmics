@@ -1,21 +1,14 @@
 [build-system]
-requires = ["setuptools>=64.0.0", "wheel"]
+requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "data_structures"
-version = "0.1.0"
-description = "A production-ready Python library of data structures and algorithms."
+name = "algorithmics"
+version = "0.0.1"
+description = "A collection of algorithms and data structures."
+authors = [
+  { name = "user", email = "user@example.com" }
+]
 
-# READ THE COMMENTS BELOW AND CHOOSE ONE OF THE TWO OPTIONS FOR [tool.setuptools]
-
-[tool.setuptools]
-# OPTION A (Recommended): IGNORE non-package directories
-# This tells setuptools: "Find packages in 'src', but exclude the 'docs' and 'examples' folders."
-packages = { find = { where = ["src"], exclude = ["docs", "examples"] } }
-package-dir = { "" = "src" }
-
-# OPTION B: BE EXPLICIT (if automatic discovery still causes issues)
-# Uncomment the line below and comment out Option A if you prefer full control.
-# packages = ["data_structures", "data_structures.fundamentals", "data_structures.fundamentals.linked_list", "algorithms"]
-# package-dir = { "" = "src" }
+[tool.setuptools.packages.find]
+where = ["src"]

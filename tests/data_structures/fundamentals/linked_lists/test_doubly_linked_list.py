@@ -3,10 +3,10 @@ import sys
 import os
 import time
 
-# Add the parent directory to the system path to resolve the 'dsa' import
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+# # Add the parent directory to the system path to resolve the 'dsa' import
+# sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
-from doubly_linked_list import DoublyLinkedList, Node
+from src.data_structures.fundamentals.linked_lists.doubly_linked_list import DoublyLinkedList, Node
 
 class TestDoublyLinkedList(unittest.TestCase):
     

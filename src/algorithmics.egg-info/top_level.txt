@@ -1,4 +1,2 @@
-docs
-examples
-src
-tests
+algorithms
+data_structures
