@@ -1,21 +1,24 @@
-📚 Data Structures & Algorithms (DSA) Library
+# 📚 Data Structures & Algorithms (DSA) Library
 
-A reference-quality collection of data structures and algorithms, implemented from scratch with clean code, documentation, and tests.
-This repository is not just about toy implementations — it’s engineered to be a professional library and a learning resource.
-✨ Features
+A **reference-quality collection** of data structures and algorithms, implemented from scratch with clean code, documentation, and tests.
 
-    ✅ Robust, production-style implementations of core DSA
+This repository is not just about toy implementations — it’s engineered to be a **professional library** and a **learning resource**.
 
-    ✅ Documented with explanations, use-cases, and complexity analysis
+---
 
-    ✅ Unit tests for reliability
+## ✨ Features
 
-    ✅ Example demos for practical usage
+* ✅ Robust, production-style implementations of core DSA
+* ✅ Documented with explanations, use-cases, and complexity analysis
+* ✅ Unit tests for reliability
+* ✅ Example demos for practical usage
+* ✅ Beginner → Advanced roadmap
 
-    ✅ Beginner → Advanced roadmap
+---
 
-📂 Repository Structure
+## 📂 Repository Structure
 
+```
 .
 ├── src/          # Core implementations
 │   ├── arrays/
@@ -27,143 +30,122 @@ This repository is not just about toy implementations — it’s engineered to b
 ├── examples/     # Usage examples
 ├── docs/         # Explanations, notes, and complexity analysis
 └── README.md
+```
 
-📘 Topics Covered
-Data Structures
+---
 
-    Arrays, Strings, Linked Lists, Stacks, Queues
+## 📘 Topics Covered
 
-    Trees (Binary, BST, AVL, Red-Black, Tries, Segment Trees, Fenwick Trees)
+### Data Structures
 
-    Hash Tables, LRU Cache
+* Arrays, Strings, Linked Lists, Stacks, Queues
+* Trees (Binary, BST, AVL, Red-Black, Tries, Segment Trees, Fenwick Trees)
+* Hash Tables, LRU Cache
+* Graphs (Adjacency List/Matrix, BFS, DFS, Union-Find, MST, SCC)
+* Heaps & Priority Queues
+* **Advanced:** Suffix Arrays, Skip Lists, B-Trees, Treaps
 
-    Graphs (Adjacency List/Matrix, BFS, DFS, Union-Find, MST, SCC)
+### Algorithms
 
-    Heaps & Priority Queues
+* Sorting (Merge, Quick, Heap, Radix, Counting, etc.)
+* Searching (Binary, Ternary, Exponential, Interpolation)
+* Graph Algorithms (Dijkstra, Bellman-Ford, Kruskal, Prim, Topological Sort, SCC, Max Flow)
+* Dynamic Programming (LCS, LIS, Knapsack, Matrix Chain, Coin Change, Edit Distance)
+* Greedy (Activity Selection, Huffman Coding, Job Scheduling)
+* Math & Number Theory (Primes, GCD/LCM, Modular Arithmetic, FFT)
+* **Advanced:** Convex Hull, String Matching (KMP, Aho-Corasick)
 
-    Advanced: Suffix Arrays, Skip Lists, B-Trees, Treaps
+---
 
-Algorithms
+## 🚀 Getting Started
 
-    Sorting (Merge, Quick, Heap, Radix, Counting, etc.)
+Follow these steps to set up the project and run tests successfully.
 
-    Searching (Binary, Ternary, Exponential, Interpolation)
+### 1. Clone the Repo 🌐
 
-    Graph Algorithms (Dijkstra, Bellman-Ford, Kruskal, Prim, Topological Sort, SCC, Max Flow)
-
-    Dynamic Programming (LCS, LIS, Knapsack, Matrix Chain, Coin Change, Edit Distance)
-
-    Greedy (Activity Selection, Huffman Coding, Job Scheduling)
-
-    Math & Number Theory (Primes, GCD/LCM, Modular Arithmetic, FFT)
-
-    Advanced: Convex Hull, String Matching (KMP, Aho-Corasick)
-
-🚀 Getting Started
-
-This guide will walk you through the essential steps to set up the project and run the tests successfully.
-1. Clone the Repo 🌐
-
-First, clone the repository from its GitHub location and navigate into the project directory.
-
-git clone [https://github.com/your-username/dsa-library.git](https://github.com/your-username/dsa-library.git)
+```bash
+git clone https://github.com/your-username/dsa-library.git
 cd dsa-library
+```
 
-2. Configure the Python Environment 🐍
+### 2. Configure the Python Environment 🐍
 
-To enable seamless imports between the src and tests directories, you must install the project in editable mode. This allows Python to recognize the src folder as a package.
+To enable seamless imports between `src` and `tests`, install the project in **editable mode**:
 
-From the project's root directory, run the following command:
-
+```bash
 pip install --editable .
+```
 
-3. Run the Tests ✅
+### 3. Run the Tests ✅
 
-With the project installed, you can now run the entire test suite using pytest.
+Run the entire test suite using **pytest**:
 
+```bash
 pytest
+```
 
-📊 Complexity Tables
+---
 
-Each algorithm is documented with time & space complexity in /docs/.
-Example:
+## 📊 Complexity Tables
 
-Algorithm
-	
+Each algorithm is documented with **time & space complexity** in `docs/`.
 
-Time Complexity
-	
+| Algorithm     | Time Complexity             | Space Complexity |
+| ------------- | --------------------------- | ---------------- |
+| Quick Sort    | O(n log n) avg, O(n²) worst | O(log n)         |
+| Merge Sort    | O(n log n)                  | O(n)             |
+| Binary Search | O(log n)                    | O(1)             |
 
-Space Complexity
+---
 
-Quick Sort
-	
+## 📖 Documentation
 
-O(n log n) avg, O(n²) worst
-	
+See `docs/` for detailed explanations and visualizations. Each data structure/algorithm includes:
 
-O(log n)
+* Problem it solves
+* Pseudocode
+* Complexity analysis
+* Real-world applications
 
-Merge Sort
-	
+---
 
-O(n log n)
-	
+## 🧪 Testing & CI
 
-O(n)
+* All modules include **unit tests** (`tests/`)
+* CI/CD via **GitHub Actions** (optional setup)
+* Coverage reports planned
 
-Binary Search
-	
+---
 
-O(log n)
-	
+## 🤝 Contributing
 
-O(1)
-📖 Documentation
+Pull requests are welcome! Please open an issue first to discuss major changes.
 
-See docs/ for detailed explanations and visualizations.
-Each data structure/algorithm includes:
+---
 
-    Problem it solves
+## 📌 Roadmap
 
-    Pseudocode
+* [ ] Add visualization demos (graphs/trees)
+* [ ] Benchmarking suite (compare sorting algorithms)
+* [ ] Multi-language support (Go, Java, C++)
+* [ ] More advanced structures (Persistent DS, Suffix Automaton, etc.)
 
-    Complexity analysis
+---
 
-    Real-world applications
+## 🛠️ Tech Stack
 
-🧪 Testing & CI
+* **Language:** Python (primary)
+* **Testing:** pytest
+* **Docs:** Markdown + Jupyter Notebooks (optional)
 
-    All modules include unit tests (tests/)
+---
 
-    CI/CD via GitHub Actions (optional setup)
+## ⭐ Support
 
-    Coverage reports planned
+If you find this project helpful, please consider **starring ⭐ the repo** to support the work.
 
-🤝 Contributing
+---
 
-Pull requests are welcome! Please open an issue first to discuss any major changes.
-📌 Roadmap
+## 📜 License
 
-    [ ] Add visualization demos (graphs/trees)
-
-    [ ] Benchmarking suite (compare sorting algorithms)
-
-    [ ] Multi-language support (Go, Java, C++)
-
-    [ ] More advanced structures (Persistent DS, Suffix Automaton, etc.)
-
-🛠️ Tech Stack
-
-    Language: Python (primary)
-
-    Testing: pytest
-
-    Docs: Markdown + Jupyter Notebooks (optional)
-
-⭐ Support
-
-If you find this project helpful, please consider starring ⭐ the repo to support the work.
-📜 License
-
-MIT License © 2025 [Your Name]
+MIT License © 2025 \[Dionis Nasuwa]
