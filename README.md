@@ -1,7 +1,8 @@
 # 📚 Data Structures & Algorithms (DSA) Library
 
 A **reference-quality collection** of data structures and algorithms, implemented from scratch with clean code, documentation, and tests.
-This repository is not just about *toy implementations* — it’s engineered to be a **professional library** and a learning resource.
+
+This repository is not just about toy implementations — it’s engineered to be a **professional library** and a **learning resource**.
 
 ---
 
@@ -42,7 +43,7 @@ This repository is not just about *toy implementations* — it’s engineered to
 * Hash Tables, LRU Cache
 * Graphs (Adjacency List/Matrix, BFS, DFS, Union-Find, MST, SCC)
 * Heaps & Priority Queues
-* Advanced: Suffix Arrays, Skip Lists, B-Trees, Treaps
+* **Advanced:** Suffix Arrays, Skip Lists, B-Trees, Treaps
 
 ### Algorithms
 
@@ -52,37 +53,42 @@ This repository is not just about *toy implementations* — it’s engineered to
 * Dynamic Programming (LCS, LIS, Knapsack, Matrix Chain, Coin Change, Edit Distance)
 * Greedy (Activity Selection, Huffman Coding, Job Scheduling)
 * Math & Number Theory (Primes, GCD/LCM, Modular Arithmetic, FFT)
-* Advanced: Convex Hull, String Matching (KMP, Aho-Corasick)
+* **Advanced:** Convex Hull, String Matching (KMP, Aho-Corasick)
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Clone the Repo
+Follow these steps to set up the project and run tests successfully.
+
+### 1. Clone the Repo 🌐
 
 ```bash
 git clone https://github.com/your-username/dsa-library.git
 cd dsa-library
 ```
 
-### 2. Run Examples
+### 2. Configure the Python Environment 🐍
+
+To enable seamless imports between `src` and `tests`, install the project in **editable mode**:
 
 ```bash
-python examples/run_example.py
+pip install --editable .
 ```
 
-### 3. Run Tests
+### 3. Run the Tests ✅
+
+Run the entire test suite using **pytest**:
 
 ```bash
-pytest tests/
+pytest
 ```
 
 ---
 
 ## 📊 Complexity Tables
 
-Each algorithm is documented with **time & space complexity** in `/docs/`.
-Example:
+Each algorithm is documented with **time & space complexity** in `docs/`.
 
 | Algorithm     | Time Complexity             | Space Complexity |
 | ------------- | --------------------------- | ---------------- |
@@ -94,8 +100,7 @@ Example:
 
 ## 📖 Documentation
 
-See [docs/](./docs) for detailed explanations and visualizations.
-Each data structure/algorithm includes:
+See `docs/` for detailed explanations and visualizations. Each data structure/algorithm includes:
 
 * Problem it solves
 * Pseudocode
@@ -106,7 +111,7 @@ Each data structure/algorithm includes:
 
 ## 🧪 Testing & CI
 
-* All modules include unit tests (`tests/`)
+* All modules include **unit tests** (`tests/`)
 * CI/CD via **GitHub Actions** (optional setup)
 * Coverage reports planned
 
@@ -114,7 +119,7 @@ Each data structure/algorithm includes:
 
 ## 🤝 Contributing
 
-Pull requests are welcome! Please open an issue first to discuss any major changes.
+Pull requests are welcome! Please open an issue first to discuss major changes.
 
 ---
 
@@ -129,9 +134,9 @@ Pull requests are welcome! Please open an issue first to discuss any major chang
 
 ## 🛠️ Tech Stack
 
-* Language: **Python (primary)**
-* Testing: **pytest**
-* Docs: Markdown + Jupyter Notebooks (optional)
+* **Language:** Python (primary)
+* **Testing:** pytest
+* **Docs:** Markdown + Jupyter Notebooks (optional)
 
 ---
 
@@ -143,4 +148,4 @@ If you find this project helpful, please consider **starring ⭐ the repo** to s
 
 ## 📜 License
 
-MIT License © 2025 \[Your Name]
+MIT License © 2025 \[Dionis Nasuwa]
