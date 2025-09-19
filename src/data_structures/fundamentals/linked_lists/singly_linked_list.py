@@ -9,6 +9,9 @@ linked list, it does not maintain a pointer to the previous node. This makes
 some operations, like backward traversal, impossible but simplifies the
 structure and reduces memory overhead.
 """
+
+# src\data_structures\fundamentals\linked_lists\singly_linked_list.py
+
 from typing import Any, Iterable, Optional
 
 class Node:

@@ -1,10 +1,14 @@
+# tests\data_structures\fundamentals\linked_lists\test_singly_linked_list.py
+
+"""
+to test run the below on the root dir
+pytest tests/data_structures/fundamentals/linked_lists/test_singly_linked_list.py
+"""
+
 import unittest
 import sys
 import os
 import time
-
-# tests\data_structures\fundamentals\linked_lists\test_singly_linked_list.py
-# tests/data_structures/fundamentals/linked_lists/test_singly_linked_list.py
 
 from src.data_structures.fundamentals.linked_lists.singly_linked_list import SinglyLinkedList, Node
 

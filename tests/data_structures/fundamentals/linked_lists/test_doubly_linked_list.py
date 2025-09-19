@@ -1,3 +1,10 @@
+# tests\data_structures\fundamentals\linked_lists\test_doubly_linked_list.py
+
+"""
+to test run the below on the root dir
+pytest tests/data_structures/fundamentals/linked_lists/test_singly_doubly_list.py
+"""
+
 import unittest
 import sys
 import os
